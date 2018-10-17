@@ -27,7 +27,6 @@ namespace CustomizedProtocolClient
                 var service = new ServiceCollection()
                     .AddSingleton<IDecoder<IByteBuffer>, TestDecoder>()
                     .AddSingleton<IEncoder<IByteBuffer>, TestEncoder>()
-                    .AddSingleton<IContentDecoder, TestContentDecoder>()
                     .AddSingleton<IConfiguration>(i => builder.AddJsonFile("app.json").Build())
                     .AddLogging(j => j.AddConsole())
                     .ReigsterRpcClients()

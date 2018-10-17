@@ -15,7 +15,6 @@ namespace CustomizedProtocolServer
             //todo: add Decoder and Encoder
             services.TryAddSingleton<IDecoder<IByteBuffer>, TestDecoder>();
             services.TryAddSingleton<IEncoder<IByteBuffer>, TestEncoder>();
-            services.TryAddSingleton<IContentDecoder, TestContentDecoder>();
             services.AddConfiguration();
         }
     }
