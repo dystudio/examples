@@ -8,7 +8,11 @@
         "Protocol": "Tcp",
         "Host": "127.0.0.1",
         "Port": 8987,
-        "Timeout": 2
+        "Timeout": 2,
+        "Servant": "TestApp.HelloServer.HelloObj",
+        "Interface": "CustomizedProtocolCommon.IHelloRpc",
+        "Codec": "Tars",
+        "CodecVersion": 3
       }
     }
   }

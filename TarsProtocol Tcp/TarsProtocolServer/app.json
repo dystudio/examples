@@ -4,9 +4,17 @@
     "Port": 8987,
     "QuietPeriodSeconds": 2,
     "ShutdownTimeoutSeconds": 2,
+    "ServiceConfig": [
+      {
+        "Servant": "TestApp.HelloServer.HelloObj",
+        "Interface": "TarsProtocolCommon.IHelloRpc",
+        "Codec": "Tars",
+        "CodecVersion": 3
+      }
+    ],
     "ClientConfig": {
       "TestApp.HelloServer.HelloObj": {
-        "Protocol": "Udp",
+        "Protocol": "Tcp",
         "Host": "127.0.0.1",
         "Port": 8987
       }

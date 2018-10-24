@@ -4,7 +4,7 @@ using Tars.Net.Attributes;
 namespace CustomizedProtocolCommon
 {
     [BusinessExceptionInterceptor]
-    [Rpc("TestApp.HelloServer.HelloObj")]
+    [Rpc]
     public interface IHelloRpc
     {
         string Hello(int no, string name);

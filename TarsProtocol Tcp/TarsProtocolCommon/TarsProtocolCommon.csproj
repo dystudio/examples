@@ -7,9 +7,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="Tars.Net.Codecs" Version="0.0.1-beta-20181015140353" />
-    <PackageReference Include="Tars.Net.DotNetty" Version="0.0.1-beta-20181017132155" />
-    <PackageReference Include="Tars.Net.Extensions.AspectCore" Version="0.0.1-beta-20181017132155" />
+    <PackageReference Include="Tars.Net.Codecs" Version="0.0.1-beta-20181024134035" />
+    <PackageReference Include="Tars.Net.DotNetty" Version="0.0.1-beta-20181024134511" />
+    <PackageReference Include="Tars.Net.Extensions.AspectCore" Version="0.0.1-beta-20181024134511" />
   </ItemGroup>
 
 </Project>
